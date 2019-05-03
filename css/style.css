@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+/*----------------------------------------Colours*/
+
+.ui-nav-color-home{
+    background-color: #CF4917;
+}
+
+.ui-nav-color-music{
+    background-color: #2D758C;
+}
+
+.ui-nav-color-photos{
+    background-color: #758C33;
+}
+
+.ui-nav-color-book{
+    background-color: #F9AC3D;
+}
+/*----------------------------------------Header*/
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
+.navcontainer{
+   font-size: 0;
+}
+
+#nav{
+    margin: 0;
+}
+
+#nav li{
+    font-size: 14px;
+    padding: 0;
+}
+
+.navitem{
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.navitem a{
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
+}
+
+.navitem a span {
+    display: block;
+    width: 100%;
+    font-family: "Righteous" sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;
+}
+
+/*----------------------------------------Home*/
+/*----------------------------------------Music*/
+/*----------------------------------------Photos*/
+/*----------------------------------------Book-us*/
+/*----------------------------------------Footer*/
