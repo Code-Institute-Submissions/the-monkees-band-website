@@ -21,6 +21,9 @@
 }
 /*----------------------------------------Header*/
 
+
+
+/*----------------------------------------Navbar*/
 .list-inline-item:not(:last-child) {
     margin-right: 0;
 }
@@ -60,7 +63,7 @@
 .navitem a span {
     display: block;
     width: 100%;
-    font-family: "Righteous" sans-serif;
+    font-family: "Righteous", sans-serif;
     font-weight: 700;
     font-size: 28px;
     margin-top: 20px;
@@ -68,7 +71,7 @@
     color: #fff;
 }
 
-
+/*----------------------------------------Callout*/
 .callout-container {
     height: 100vh;
     background-image: url("/images/monkees-newsize.jpg");
@@ -83,12 +86,25 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    opacity: 0.2;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(242, 242, 242, 0.8);
 }
 
 .band-logo{
-    opacity: 1;
-    width: 100%;
+    width: 70%;
+    position: center;
+}
+
+.content{
+    font-family: "Righteous", sans-serif;
+    font-size: 30px;
 }
 
 /*----------------------------------------Home*/
