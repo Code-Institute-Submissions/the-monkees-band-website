@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 
+/*----------------------------------------Page movement*/
+
 /*----------------------------------------Colours*/
 
 .ui-nav-color-home{
@@ -21,6 +23,12 @@
 
 .list-inline-item:not(:last-child) {
     margin-right: 0;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .navcontainer{
@@ -58,6 +66,29 @@
     margin-top: 20px;
     margin-bottom: 90px;
     color: #fff;
+}
+
+
+.callout-container {
+    height: 100vh;
+    background-image: url("/images/monkees-newsize.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position: right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    opacity: 0.2;
+}
+
+.band-logo{
+    opacity: 1;
+    width: 100%;
 }
 
 /*----------------------------------------Home*/

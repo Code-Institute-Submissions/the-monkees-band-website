@@ -11,16 +11,49 @@
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>The Monkees | Official</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
 </head>
 
 <body>
     <!----------------------------------------Header-->
+
     <header>
+        
+        <!----------------------------------------Navbar-->
+        <div id="page1" class="row no-gutters">
+            <a id="home"></a>
+        </div>
         <div class="row no-gutters">
             <div class="col-12">
-                <div class="row no-gutters">
+                <div class="row no-gutters navbar">
                     <div class="col">
-                        <ul id-"nav" class="list-inline navcontainer">
+                        <ul id- "nav" class="list-inline navcontainer">
                             <li class="col-6 col-sm-3 ui-nav-color-home list-inline-item navitem">
                                 <a href="#home"><span>Home</span></a>
                             </li>
@@ -36,40 +69,47 @@
                         </ul>
                     </div>
                 </div>
-                <div class="jumbotron container-fluid">
-                    <div class="row no-gutters">
-                        <div class="col-sm-6">
-                            <center>
-                                <img src="/images/monkees-logo.png">
-                            </center>
-                        </div>
-                        <div class="col-sm-6">
-                            <center>
-                                
-                            </center>
-                        </div>
-                    </div>
+            </div>
+        </div>
+        <!----------------------------------------/Navbar-->
+
+        <!----------------------------------------Callout-->
+        <div class="container-fluid callout-container">
+            <div class="row no-gutters">
+                <div class="col-sm-6">
+                    <center>
+                        <img class="band-logo" src="/images/monkees-logo.png">
+                    </center>
+                </div>
+                <div class="col-sm-6">
+                    <center>
+                        <img style="width: 100%" src="/images/monkees-logo.png">
+                    </center>
                 </div>
             </div>
         </div>
+        <!----------------------------------------/Callout-->
+
     </header>
     <!----------------------------------------/Header-->
 
     <!----------------------------------------Music-->
     <section>
-        <div  id="page1" class="row no-gutters">
-            <a id="music">We got music</a>
+        <div id="page2" class="row no-gutters">
+            <a id="music">
+                
+            </a>
         </div>
     </section>
     <!----------------------------------------/Music-->
     <section>
-        <div  id="page2" class="row no-gutters">
+        <div id="page3" class="row no-gutters">
             <a id="photos">Let's look at photos</a>
         </div>
     </section>
     <!----------------------------------------Photos-->
     <section>
-        <div  id="page3" class="row no-gutters">
+        <div id="page4" class="row no-gutters">
             <a id="book-us">Book us for gigs</a>
         </div>
     </section>
