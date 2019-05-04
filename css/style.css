@@ -1,23 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 
-/*----------------------------------------Page movement*/
+/*----------------------------------------Images*/
 
+.band-logo{
+    display: block;
+    width: 70%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.fan-club-image{
+    display: block;
+    width: 50%;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-radius: 50px 50px 50px 50px;
+}
 /*----------------------------------------Colours*/
 
 .ui-nav-color-home{
     background-color: #CF4917;
+    border-radius: 50px 50px 50px 50px;
 }
 
 .ui-nav-color-music{
     background-color: #2D758C;
+    border-radius: 50px 50px 50px 50px;
 }
 
 .ui-nav-color-photos{
     background-color: #758C33;
+    border-radius: 50px 50px 50px 50px;
 }
 
 .ui-nav-color-book{
     background-color: #F9AC3D;
+    border-radius: 50px 50px 50px 50px;
+     
 }
 /*----------------------------------------Header*/
 
@@ -28,10 +48,13 @@
     margin-right: 0;
 }
 
-.navbar{
+.navbar-top{
     position: fixed;
     width: 100%;
     z-index: 1;
+    padding: 0;
+    border-radius: 50px 50px 50px 50px;
+    
 }
 
 .navcontainer{
@@ -97,14 +120,45 @@
     background-color: rgba(242, 242, 242, 0.8);
 }
 
-.band-logo{
+
+.content-text-article{
+    display: block;
+    text-align: center;
     width: 70%;
-    position: center;
+    margin: 0 auto;
+    font-family: "Righteous", sans-serif;
+    font-size: 20px;
 }
 
-.content{
+.content-text-callout{
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
     font-family: "Righteous", sans-serif;
     font-size: 30px;
+}
+
+/*----------------------------------------Buttons*/
+
+.btn--jumbo{
+    font-family: "Righteous", sans-serif;
+    background-color: #5091ad;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+.btn--footer{
+    font-family: "Righteous", sans-serif;
+    background-color: #5091ad;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+    font-size: 20px;
 }
 
 /*----------------------------------------Home*/
