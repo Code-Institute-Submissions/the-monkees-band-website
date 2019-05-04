@@ -2,14 +2,14 @@
 
 /*----------------------------------------Images*/
 
-.band-logo{
+.band-logo {
     display: block;
     width: 70%;
     position: relative;
     margin: 0 auto;
 }
 
-.fan-club-image{
+.fan-club-image {
     display: block;
     width: 50%;
     position: relative;
@@ -17,66 +17,67 @@
     padding-bottom: 20px;
     border-radius: 50px 50px 50px 50px;
 }
+
 /*----------------------------------------Colours*/
 
-.ui-nav-color-home{
+.ui-nav-color-home {
     background-color: #CF4917;
     border-radius: 50px 50px 50px 50px;
 }
 
-.ui-nav-color-music{
+.ui-nav-color-music {
     background-color: #2D758C;
     border-radius: 50px 50px 50px 50px;
 }
 
-.ui-nav-color-photos{
+.ui-nav-color-photos {
     background-color: #758C33;
     border-radius: 50px 50px 50px 50px;
 }
 
-.ui-nav-color-book{
+.ui-nav-color-book {
     background-color: #F9AC3D;
     border-radius: 50px 50px 50px 50px;
-     
 }
+
+
 /*----------------------------------------Header*/
 
-
-
 /*----------------------------------------Navbar*/
+
 .list-inline-item:not(:last-child) {
     margin-right: 0;
 }
 
-.navbar-top{
+.navbar-top {
     position: fixed;
     width: 100%;
     z-index: 1;
     padding: 0;
     border-radius: 50px 50px 50px 50px;
-    
+
 }
 
-.navcontainer{
-   font-size: 0;
+.navcontainer {
+    font-size: 0;
 }
 
-#nav{
+#nav {
     margin: 0;
 }
 
-#nav li{
+#nav li {
     font-size: 14px;
     padding: 0;
 }
 
-.navitem{
+.navitem {
     height: 120px;
     text-align: center;
     padding: 0;
 }
 
-.navitem a{
+.navitem a {
     width: 100%;
     text-decoration: none;
     color: #fff;
@@ -95,6 +96,7 @@
 }
 
 /*----------------------------------------Callout*/
+
 .callout-container {
     height: 100vh;
     background-image: url("/images/monkees-newsize.jpg");
@@ -121,7 +123,7 @@
 }
 
 
-.content-text-article{
+.content-text-article {
     display: block;
     text-align: center;
     width: 70%;
@@ -130,7 +132,7 @@
     font-size: 20px;
 }
 
-.content-text-callout{
+.content-text-callout {
     display: block;
     text-align: center;
     width: 50%;
@@ -141,7 +143,7 @@
 
 /*----------------------------------------Buttons*/
 
-.btn--jumbo{
+.btn--jumbo {
     font-family: "Righteous", sans-serif;
     background-color: #5091ad;
     color: #fff;
@@ -151,18 +153,66 @@
     font-size: 30px;
 }
 
-.btn--footer{
+.btn--footer {
     font-family: "Righteous", sans-serif;
-    background-color: #5091ad;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     display: block;
     margin: 0 auto;
     border-radius: 50px;
     font-size: 20px;
+    
 }
 
 /*----------------------------------------Home*/
+
 /*----------------------------------------Music*/
+
 /*----------------------------------------Photos*/
+
 /*----------------------------------------Book-us*/
+
 /*----------------------------------------Footer*/
+
+.footer-bottom {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 0;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: -15px;
+}
+
+.footer-cta {
+    background-color: #2c4063;
+    color: #fafafa;
+    min-height: 120px;
+    padding: 12px 0;
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    font-family: "Righteous", sans-serif;
+    font-size: 30px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+ .social-links li a i{
+     width: 32px;
+     height: 32px;
+     padding: 12px 0;
+     border-radius: 50%;
+     line-height: 7px;
+     font-size: 13px;
+     text-align: center;
+     color: #000;
+     background: #fff;
+      transition: all 0.35s ease-in-out;
+     -o-transition: all 0.35s ease-in-out;
+     -moz-transition: all 0.35s ease-in-out;
+     -webkit-transition: all 0.35s ease-in-out;
+ }
+ 
+ .social-links li a i:hover{
+     background-color: #F9AC3D;
+ }
