@@ -43,7 +43,7 @@
 <body>
     <!----------------------------------------Header-->
     <header>
-
+        <!----------------------------------------Navbar-->
         <div id="page1" class="row no-gutters">
             <a id="home"></a>
         </div>
@@ -51,7 +51,7 @@
             <div class="col-12">
                 <div class="row no-gutters navbar-top">
                     <div class="col">
-                        <ul id- "nav" class="list-inline navcontainer">
+                        <ul id="nav" class="list-inline navcontainer">
                             <li class="col-6 col-sm-3 ui-nav-color-home list-inline-item navitem">
                                 <a href="#home"><span>Home</span></a>
                             </li>
@@ -70,6 +70,7 @@
             </div>
         </div>
     </header>
+    <!----------------------------------------/Navbar-->
     <!----------------------------------------/Header-->
 
     <!----------------------------------------Callout-->
@@ -107,19 +108,46 @@
                 <div class="container-fluid callout-container">
                     <div class="opaque-overlay"></div>
                     <div class="row no-gutters">
-                        <div class="col-sm-6 top-section">
-                            <img class="band-logo" src="/images/monkees-logo.png">
-                            <p class="content-text-article">
-                                Hey Hey we're The Monkees! Welcome to our home on the internet! Feel free to check out our <a href="#music"> Music</a>, and look through old and new<a href="#photos"> Photos</a>. <a href="#book-us">Book us</a> for a party,
-                                we love to celebrate, and don't forget to sign up to our Fan Club for the latest news!
-                            </p>
+                        
+        <!----------------------------------------Audio--> 
+          
+                        <div class="col-sm-6 music-main-section">
+                        <h2>Music Collection</h2>
+                            <row class="music-section track-one-image">
+                                <h4></h4>
+                                <audio controls class="">
+                                <source src="audio/Clarksville.mp3" type="audio/mpeg">
+                            </audio>
+                            </row>
+                            <row class="music-section track-two-image">
+                                <h4></h4>
+                                <audio controls>
+                                <source src="audio/DaydreamBeliever.mp3" type="audio/mpeg">
+                            </audio>
+                            </row>
+                            <row class="music-section track-three-image">
+                                <h4></h4>
+                                <audio controls>
+                                <source src="audio/SteppingStone.mp3" type="audio/mpeg">
+                            </audio>
+                            </row>
+                            <row class="music-section track-four-image">
+                                <h4></h4>
+                                <audio controls class="">
+                                <source src="audio/ImABeliever.mp3" type="audio/mpeg">
+                            </audio>
+                            </row>
                         </div>
+        <!----------------------------------------/Audio--> 
+        
+        <!----------------------------------------/Video--> 
                         <div class="col-sm-6 bottom-section">
-                            <img class="fan-club-image" src="/images/monkees-fan-club.jpg">
-                            <p class="content-text-callout">
-                                Stay up to date with the latest news! Join our Fan Club!
-                            </p>
-                            <button class="btn btn--jumbo">Sign Up</button>
+                            <video width="400" controls>
+                                <source src="mov_bbb.mp4" type="video/mp4">
+                                <source src="mov_bbb.ogg" type="video/ogg">
+                                Your browser does not support HTML5 video.
+                            </video>
+
                         </div>
                     </div>
                 </div>

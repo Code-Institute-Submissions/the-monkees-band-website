@@ -18,6 +18,31 @@
     border-radius: 50px 50px 50px 50px;
 }
 
+.music-track-image {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+
+.track-one-image{
+     background-image:url("/images/clarksville.jpg");
+}
+
+.track-two-image{
+     background-image:url("/images/day-dream-believer.jpg");
+}
+
+.track-three-image{
+     background-image:url("/images/stepping-stone.jpg");
+}
+
+.track-four-image{
+     background-image:url("/images/imabeliever.jpg");
+}
 /*----------------------------------------Colours*/
 
 .ui-nav-color-home {
@@ -43,6 +68,7 @@
 /*----------------------------------------Element Padding*/
 
 .top-section {
+   
 }
 
 
@@ -50,6 +76,45 @@
     display: none;
 }
 
+/*----------------------------------------Content Layout*/
+
+.content-text-article {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Righteous", sans-serif;
+    font-size: 20px;
+}
+
+/*----------------------------------------Buttons*/
+
+.btn--jumbo {
+    font-family: "Righteous", sans-serif;
+    background-color: #5091ad;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+.btn--footer {
+    font-family: "Righteous", sans-serif;
+    background-color: #fff;
+    color: #000;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+    font-size: 20px;
+
+}
+
+/*----------------------------------------Media Playback*/
+.audio-player-size{
+    width: 220px;
+    text-align: center;
+}
 
 /*----------------------------------------Body*/
 
@@ -116,10 +181,11 @@ body {
     color: #fff;
 }
 
+
 /*----------------------------------------Callout*/
 
 .callout-container {
-    background-image: url("/images/monkees-newsize.jpg");
+    background-image: url("/images/monkees-newsize.jpg"); 
     background-repeat: no-repeat;
     background-position: bottom;
     background-position: right;
@@ -142,16 +208,6 @@ body {
     background-color: rgba(242, 242, 242, 0.8);
 }
 
-
-.content-text-article {
-    display: block;
-    text-align: center;
-    width: 100%;
-    margin: 0 auto;
-    font-family: "Righteous", sans-serif;
-    font-size: 20px;
-}
-
 .content-text-callout {
     display: block;
     text-align: center;
@@ -161,32 +217,24 @@ body {
     font-size: 20px;
 }
 
-/*----------------------------------------Buttons*/
-
-.btn--jumbo {
-    font-family: "Righteous", sans-serif;
-    background-color: #5091ad;
-    color: #fff;
-    display: block;
-    margin: 0 auto;
-    border-radius: 50px;
-    font-size: 30px;
-}
-
-.btn--footer {
-    font-family: "Righteous", sans-serif;
-    background-color: #fff;
-    color: #000;
-    display: block;
-    margin: 0 auto;
-    border-radius: 50px;
-    font-size: 20px;
-
-}
-
 /*----------------------------------------Home*/
 
 /*----------------------------------------Music*/
+
+.music-main-section{
+     display: block;
+     padding-top: 120px;
+     text-align: center;
+}
+
+.music-section{
+    display: inline-block;    
+    text-align: center;
+    border-radius: 50px 50px 50px 50px;
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+}
+
 
 /*----------------------------------------Photos*/
 
@@ -244,7 +292,7 @@ body {
 }
 
 
-@media(min-width: 992px) {
+@media(min-width: 1025px) {
     .navbar-top {
         position: fixed;
     }
@@ -280,4 +328,23 @@ body {
 .container-fluid {
     margin: 0;
     padding: 0;
+}
+
+.h2, h2 {
+    font-size: 2rem;
+    font-family: "Righteous", sans-serif;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.h4, h4 {
+    font-size: 1.5rem;
+    font-family: "Righteous", sans-serif;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 180px;
 }
