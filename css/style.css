@@ -43,6 +43,7 @@
 .track-four-image{
      background-image:url("/images/imabeliever.jpg");
 }
+
 /*----------------------------------------Colours*/
 
 .ui-nav-color-home {
@@ -223,7 +224,7 @@ body {
 
 .music-main-section{
      display: block;
-     padding-top: 120px;
+     
      text-align: center;
 }
 
@@ -235,6 +236,12 @@ body {
     padding-top: 1.5rem;
 }
 
+.video-position{
+    display: block;
+    position: relative;
+    text-align: center;
+    border-radius: 50px 50px 50px 50px;
+}
 
 /*----------------------------------------Photos*/
 
@@ -315,6 +322,10 @@ body {
 
     .bottom-section {
         display: block;
+        padding-top: 120px;
+    }
+    
+    .music-main-section{
         padding-top: 120px;
     }
     
