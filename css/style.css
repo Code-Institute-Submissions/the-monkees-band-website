@@ -7,6 +7,7 @@
     width: 70%;
     position: relative;
     margin: 0 auto;
+    border-radius: 50px 50px 50px 50px;
 }
 
 .fan-club-image {
@@ -284,6 +285,10 @@ body {
 }
 /*----------------------------------------Book-us*/
 
+.form-layout{
+    text-align: center;
+}
+
 /*----------------------------------------Footer*/
 
 .footer-bottom {
@@ -367,6 +372,10 @@ body {
     
     .footer-bottom {
         position: fixed;
+    }
+    
+    .form-layout{
+        padding-top: 120px;
     }
 }
 
