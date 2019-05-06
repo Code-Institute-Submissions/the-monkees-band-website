@@ -44,6 +44,9 @@
      background-image:url("/images/imabeliever.jpg");
 }
 
+.gallery-image-size{
+    max-height: 220px;
+}
 /*----------------------------------------Colours*/
 
 .ui-nav-color-home {
@@ -224,7 +227,6 @@ body {
 
 .music-main-section{
      display: block;
-     
      text-align: center;
 }
 
@@ -241,10 +243,45 @@ body {
     position: relative;
     text-align: center;
     border-radius: 50px 50px 50px 50px;
+    
+}
+
+.video-container{
+    padding-top: 120px;
 }
 
 /*----------------------------------------Photos*/
 
+.gallery-main-section{
+    display: block;
+    text-align: center;
+}
+
+.gallery-item{
+    display: inline-block;    
+    text-align: center;
+    border: 10px solid;
+    border-radius: 50px 50px 50px 50px;
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    max-height: 400px;
+    max-width: 400px;
+}
+
+.gallery-container {
+    background-image: url("/images/monkees-newsize.jpg"); 
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position: right;
+    border-radius: 50px 50px 50px 50px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
 /*----------------------------------------Book-us*/
 
 /*----------------------------------------Footer*/
@@ -294,7 +331,6 @@ body {
 @media(min-width: 479px){
      .bottom-section {
         display: block;
-        
     }
 }
 
