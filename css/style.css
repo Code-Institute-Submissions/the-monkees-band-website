@@ -124,7 +124,7 @@
 
 }
 
-.btn--footer::hover {
+.btn--footer:hover {
     color: #fff;
 }
 
