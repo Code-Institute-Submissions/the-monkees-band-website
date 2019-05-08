@@ -28,7 +28,14 @@
     border-radius: 50px 50px 50px 50px;
 }
 
-
+.book-us-image{
+    display: block;
+    width: 50%;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-radius: 50px 50px 50px 50px
+}
 .track-one-image {
     background-image: url("/images/clarksville.jpg");
 }
@@ -230,6 +237,8 @@ body {
     font-size: 20px;
 }
 
+/*----------------------------------------Home*/
+
 /*----------------------------------------Music*/
 
 .music-main-section {
@@ -345,6 +354,10 @@ body {
     .bottom-section {
         display: block;
     }
+    
+    .callout-container {
+        height: 100vh;
+    }
 }
 
 
@@ -353,11 +366,7 @@ body {
         position: fixed;
     }
 
-
-
-    .callout-container {
-        height: 100vh;
-    }
+    
 
     .content-text-article {
         width: 70%;
