@@ -251,7 +251,6 @@ body {
     text-align: center;
     border-radius: 50px 50px 50px 50px;
     padding-bottom: 2rem;
-    padding-top: 1.5rem;
 }
 
 .video-position {
@@ -301,8 +300,9 @@ body {
 
 .form-layout {
     text-align: center;
-    max-width: 80%;
+    max-width: 40%;
     margin: 0 auto;
+    padding-top: 60px;
 }
 
 /*----------------------------------------Footer*/
@@ -366,7 +366,9 @@ body {
         position: fixed;
     }
 
-    
+    .callout-container {
+        height: 100vh;
+    }
 
     .content-text-article {
         width: 70%;
@@ -427,5 +429,5 @@ h4 {
     text-align: center;
     width: 100%;
     margin: 20px auto;
-    padding-top: 180px;
+    padding-top: 100px;
 }
