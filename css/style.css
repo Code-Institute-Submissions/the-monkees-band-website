@@ -38,19 +38,19 @@
 }
 
 .track-one-image {
-    background-image: url(/images/clarksville.jpg);
+    background-image: url("/the-monkees-band-website/images/clarksville.jpg");
 }
 
 .track-two-image {
-    background-image: url(/images/day-dream-believer.jpg);
+    background-image: url("/the-monkees-band-website/images/day-dream-believer.jpg");
 }
 
 .track-three-image {
-    background-image: url(/images/stepping-stone.jpg);
+    background-image: url("/the-monkees-band-website/images/stepping-stone.jpg");
 }
 
 .track-four-image {
-    background-image: url(/images/imabeliever.jpg);
+    background-image: url("/the-monkees-band-website/images/imabeliever.jpg");
 }
 
 .gallery-image-size {
@@ -205,7 +205,7 @@ body {
 /*----------------------------------------Callout*/
 
 .callout-container {
-    background-image: url("/images/monkees-newsize.jpg");
+    background-image: url("/the-monkees-band-website/images/monkees-newsize.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
     background-position: right;
@@ -285,7 +285,7 @@ body {
 }
 
 .gallery-container {
-    background-image: url(/images/monkees-newsize.jpg);
+    background-image: url("/the-monkees-band-website/images/monkees-newsize.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
     background-position: right;
