@@ -10,34 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    
     <title>The Monkees | Official</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            // Add smooth scrolling to all links
-            $("a").on('click', function(event) {
-
-                // Make sure this.hash has a value before overriding default behavior
-                if (this.hash !== "") {
-                    // Prevent default anchor click behavior
-                    event.preventDefault();
-
-                    // Store hash
-                    var hash = this.hash;
-
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 800, function() {
-
-                        // Add hash (#) to URL when done scrolling (default click behavior)
-                        window.location.hash = hash;
-                    });
-                } // End if
-            });
-        });
-    </script>
 </head>
 
 <body>
@@ -84,7 +58,7 @@
                             <img class="band-logo" src="/the-monkees-band-website/images/monkees-logo.png">
                             <p class="content-text-article">
                                 Hey Hey we're The Monkees! Welcome to our home on the internet! Feel free to check out our <a href="#music"> Music</a>, and look through old and new<a href="#photos"> Photos</a>. <a href="#book-us">Book us</a> for a party,
-                                we love to celebrate, and don't forget to sign up to our Fan Club for the latest news!
+                                we love to celebrate, and don't forget to <a href="#home" data-toggle="modal" data-target="#signUpModal">sign up</a> to our Fan Club for the latest news!
                             </p>
                         </div>
                         <div class="col-sm-6 bottom-section">
@@ -92,7 +66,7 @@
                             <p class="content-text-callout">
                                 Stay up to date with the latest news! Join our Fan Club!
                             </p>
-                            <button class="btn btn--jumbo">Sign Up</button>
+                            <button class="btn btn--jumbo" data-toggle="modal" data-target="#signUpModal">Sign Up</button>
                         </div>
                     </div>
                 </div>
@@ -113,25 +87,25 @@
                     <div class="col-12 col-sm-12 col-lg-6 music-main-section">
                         <h2>Music Collection</h2>
                         <row class="music-section track-one-image">
-                            
+
                             <audio controls>
                                 <source src="audio/Clarksville.mp3" type="audio/mpeg">
                             </audio>
                         </row>
                         <row class="music-section track-two-image">
-                           
+
                             <audio controls>
                                 <source src="audio/DaydreamBeliever.mp3" type="audio/mpeg">
                             </audio>
                         </row>
                         <row class="music-section track-three-image">
-                           
+
                             <audio controls>
                                 <source src="audio/SteppingStone.mp3" type="audio/mpeg">
                             </audio>
                         </row>
                         <row class="music-section track-four-image">
-                            
+
                             <audio controls class="">
                                 <source src="audio/ImABeliever.mp3" type="audio/mpeg">
                             </audio>
@@ -143,7 +117,7 @@
                     <div class="col-12 col-sm-12 col-lg-6 video-container">
                         <h2>Videos</h2>
                         <div class="video-position">
-                            <video width="270" controls>
+                            <video controls>
                                 <source src="video/TheMonkees.mp4" type="video/mp4">
                                 Day Dream Believer.
                             </video>
@@ -164,12 +138,8 @@
                     <div class="row no-gutters">
                         <div class="col-12 top-section">
                             <h2>Photos</h2>
-                            <p class="content-text-article">
-                                Hey Hey we're The Monkees! Welcome to our home on the internet! Feel free to check out our <a href="#music"> Music</a>, and look through old and new<a href="#photos"> Photos</a>. <a href="#book-us">Book us</a> for a party,
-                                we love to celebrate, and don't forget to sign up to our Fan Club for the latest news!
-                            </p>
+                            <a href="photos"></a>
                             <div class="col-12 gallery-main-section">
-
                                 <row class="gallery-item">
                                     <a target="_blank" href="images/gallery-images/dj.jpg">
                                     <img class="gallery-image-size" src="images/gallery-images/dj.jpg" alt="Davey Jones">
@@ -230,22 +200,22 @@
                             <h2>Book Us!</h2>
                             <img class="book-us-image" src="images/book-us-monkees2.png">
                             <p class="content-text-article">
-                                Got a party coming up? Every dreamed of having The Monkees perform for you? We love shows of any kind. Feel free to fill in our booking form and we'll get back to you. We love to monkey around on stage! Don't forget to check out our
-                                <a href="#music"> Music</a>, and look through old and new<a href="#photos"> Photos</a>
+                                Got a party coming up? Every dreamed of having The Monkees perform for you? We love shows of any kind. Feel free to fill in our booking form and we'll get back to you. We love to monkey around on stage! 
                             </p>
                         </div>
                         <div class="col-12 col-sm-12 col-lg-6 form-layout">
                             <h2>Booking Form</h2>
-                            <form>
+                            <form action="index.html#home">
                                 <div>
                                     <div>
-                                        <input type="text" class="form-control" placeholder="Enter Name">
+                                        <input type="text" class="form-control" placeholder="Enter Name" name="name" required="">
                                     </div>
                                     <div>
-                                        <input type="email" class="form-control" placeholder="Enter Email">
+                                        <input type="email" class="form-control" placeholder="Enter Email" name="email" required="">
                                     </div>
-                                    <textarea class="form-control" rows="5" placeholder="Enter some details about your event. Please include the location, and date.">
-                                </textarea>
+                                    <div>
+                                        <textarea class="form-control" rows="5" placeholder="Enter some details about your event. Please include the location, and date." name="details" required=""></textarea>
+                                    </div>
                                 </div>
                                 <button type="submit" class="btn btn--jumbo">Submit</button>
                             </form>
@@ -257,6 +227,32 @@
     </section>
     <!--/Booking-->
 
+    <!--Signup Modal-->
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Join our Fan Club!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+                </div>
+                <div class="modal-body">
+                    <form action="index.html">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--jumbo">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/signup-modal-->
+
     <!--Footer-->
     <footer class="container-fluid">
 
@@ -264,11 +260,11 @@
 
             <div class="col-sm-4 col-12 footer-cta">
                 <h5>Join our Fan Club!</h5>
-                <button class="btn btn--footer">Sign Up</button>
+                <button class="btn btn--footer" data-toggle="modal" data-target="#signUpModal">Sign Up</button>
             </div>
             <div class="col-sm-4 col-12 footer-cta">
                 <h5>Book us!</h5>
-                <button class="btn btn--footer">Book Us</button>
+                <button class="btn btn--footer"><a href="#book-us"><span>Book us</span></a></button>
             </div>
             <div class="col-sm-4 col-12 footer-cta">
                 <h5>Social Links</h5>
@@ -293,11 +289,15 @@
                     </li>
                 </ul>
             </div>
-
         </div>
     </footer>
     <!--/Footer-->
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="../JS/smooth-scroll.js"></script>
+    
 </body>
 
 </html>

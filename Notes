@@ -1,4 +1,4 @@
-Scrolling effect found by searching W3 Schools - JjQuery Script with adjustable parameters for scoll time - https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section1
+Scrolling effect found by searching W3 Schools - JjQuery Script with adjustable parameters for scoll time - https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section1 - stored in smooth-scroll.js
 
 Fixed footer for making a frame on information around each window - https://stackoverflow.com/questions/4069734/fixed-header-footer-with-scrollable-content
 
@@ -7,3 +7,7 @@ Used firefox and chrome inspector tools to optimise layouts.
 Used Screenfly to test typical sreen sizees for desktop
 
 project naming between prototype and github repository important! - example /the-monkees-band-website/images/monkees-newsize.jpg
+
+modal use taken from Whiskey bootstrap project
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
