@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    
+    <title>The Monkees | Official</title>
+</head>
+
+<body>
+    <!--Header-->
+    <!--Navbar-->
+    <header>
+        <div id="page1" class="row no-gutters">
+            <a id="home"></a>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="row no-gutters navbar-top">
+                    <div class="col">
+                        <ul id="nav" class="list-inline navcontainer">
+                            <li class="col-6 col-sm-3 ui-nav-color-home list-inline-item navitem">
+                                <a href="index.html#home"><span>Home</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 ui-nav-color-music list-inline-item navitem">
+                                <a href="index.html#music"><span>Music</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 ui-nav-color-photos list-inline-item navitem">
+                                <a href="index.html#photos"><span>Photos</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 ui-nav-color-book list-inline-item navitem">
+                                <a href="index.html#book-us"><span>Book us</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--/Navbar-->
+    <!--/Header-->
+
+   <!--Booking-Thankyou-->
+    
+    <section class="container-fluid">
+        <div id="page3" class="row no-gutters">
+            <a id="photos">
+                <div class="container-fluid gallery-container">
+                    <div class="opaque-overlay"></div>
+                    <div class="row no-gutters">
+                        <div class="col-12 top-section">
+                            <h2>Thank you!</h2>
+                            <a href="photos"></a>
+                            <div class="col-12 gallery-main-section">
+                                <img class="band-logo" src="/images/monkees-logo.png">
+                                <p class="content-text-thanks">
+                                    Thank you for getting in touch! We'll get back to you real soon!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+    
+    <!--/Booking-Thankyou-->
+
+    <!--Signup Modal-->
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Join our Fan Club!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+                </div>
+                <div class="modal-body">
+                    <form action="index.html">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--jumbo">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/signup-modal-->
+
+    <!--Footer-->
+    <footer class="container-fluid">
+
+        <div class="row no-gutters footer-bottom">
+
+            <div class="col-sm-4 col-12 footer-cta">
+                <h5>Join our Fan Club!</h5>
+                <button class="btn btn--footer" data-toggle="modal" data-target="#signUpModal">Sign Up</button>
+            </div>
+            <div class="col-sm-4 col-12 footer-cta">
+                <h5>Book us!</h5>
+                <button class="btn btn--footer"><a href="index.html#book-us"><span>Book us</span></a></button>
+            </div>
+            <div class="col-sm-4 col-12 footer-cta">
+                <h5>Social Links</h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!--/Footer-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--<script src="../JS/smooth-scroll.js"></script>-->
+    
+</body>
+
+</html>

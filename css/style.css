@@ -38,19 +38,19 @@
 }
 
 .track-one-image {
-    background-image: url("/the-monkees-band-website/images/clarksville.jpg");
+    background-image: url("/images/clarksville.jpg");
 }
 
 .track-two-image {
-    background-image: url("/the-monkees-band-website/images/day-dream-believer.jpg");
+    background-image: url("/images/day-dream-believer.jpg");
 }
 
 .track-three-image {
-    background-image: url("/the-monkees-band-website/images/stepping-stone.jpg");
+    background-image: url("/images/stepping-stone.jpg");
 }
 
 .track-four-image {
-    background-image: url("/the-monkees-band-website/images/imabeliever.jpg");
+    background-image: url("/images/imabeliever.jpg");
 }
 
 .gallery-image-size {
@@ -114,6 +114,34 @@
     font-size: 20px;
 }
 
+.btn--jumbo a{
+    color: #fff;
+}
+
+.btn--jumbo a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+.btn--home {
+    font-family: "Righteous", sans-serif;
+    background-color: #CF4917;
+    color: #fff;
+    display: block;
+    margin: 20px auto;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.btn--home a{
+    color: #fff;
+}
+
+.btn--home a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
 .btn--footer {
     font-family: "Righteous", sans-serif;
     background-color: #fff;
@@ -167,7 +195,7 @@ body {
     width: 100%;
     z-index: 1;
     padding: 0;
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 50px;
 
 }
 
@@ -214,7 +242,7 @@ body {
 /*----------------------------------------Callout*/
 
 .callout-container {
-    background-image: url("/the-monkees-band-website/images/monkees-newsize-4.png");
+    background-image: url("/images/monkees-newsize-4.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-position: right;
@@ -302,7 +330,7 @@ video{
 }
 
 .gallery-container {
-    background-image: url("/the-monkees-band-website/images/monkees-newsize-4.png");
+    background-image: url("/images/monkees-newsize-4.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-position: right;
@@ -322,6 +350,7 @@ video{
     text-align: center;
     max-width: 90%;
     margin: 0 auto;
+    font-family: "Righteous", sans-serif;
 }
 
 /*----------------------------------------Footer*/
@@ -365,22 +394,23 @@ video{
     background-color: #5091AD;
 }
 
+/*----------------------------------------Thank You Page*/
+
+.content-text-thanks {
+    display: block;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    font-family: "Righteous", sans-serif;
+    font-size: 20px;
+}
+
+
 /*----------------------------------------Media Queries*/
 
 @media(min-width: 480px) {
     .bottom-section {
         display: block;
-    }
-    
-   
-    
-    .music-main-section {
-        padding-top: 100px;
-    }
-
-    .video-container {
-        padding-top: 100px;
-        padding-bottom: 100px;
     }
 
     .form-layout {
@@ -400,8 +430,7 @@ video{
     }
 
     .video-container {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 20px;
     }
 }
 
@@ -420,7 +449,7 @@ video{
         text-align: center;
         max-width: 40%;
         margin: 0 auto;
-        padding-top: 80px;
+        padding-top: 20px;
     }
 }
 
@@ -511,6 +540,7 @@ a:hover{
 /*----------------------------------------Modal Mods*/
 
 .modal-content{
+    font-family: "Righteous", sans-serif;
     border-radius: 50px;
 }
 
