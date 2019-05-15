@@ -483,10 +483,6 @@ video{
     .video-container {
         padding-top: 120px;
     }
-    
-    .gallery-container{
-        height: 100vh;
-    }
 
     .form-layout {
         text-align: center;
