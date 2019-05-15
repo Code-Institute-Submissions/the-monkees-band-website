@@ -21,3 +21,6 @@ Rounded edges, a colour palette from the 60's with faded background image. These
 #### Functionality
 The website is a three page design. A primary page for all content, and two "thank you" pages linked to both forms. A "Back to Home" button sits at the bottom of each section linking back to the main menu. Form one is modal requesting and email address for a fan club signup. Form two is a booking form requesting a name, email and details regarding an event. Both forms work correctly. 
 
+## Deployment
+
+(https://deganoth.github.io/the-monkees-band-website/)
