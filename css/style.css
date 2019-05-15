@@ -395,6 +395,22 @@ video{
 
 /*----------------------------------------Booking & Signup Pages*/
 
+.thanks-container {
+    background-image: url("/the-monkees-band-website/images/monkees-newsize-4.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position: right;
+    border-radius: 50px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+}
+
 .content-text-thanks {
     display: block;
     text-align: center;
@@ -468,27 +484,27 @@ video{
     }
 
     .top-section {
-        padding-top: 120px;
+        padding-top: 80px;
     }
 
     .bottom-section {
         display: block;
-        padding-top: 120px;
+        padding-top: 80px;
     }
 
     .music-main-section {
-        padding-top: 120px;
+        padding-top: 80px;
     }
 
     .video-container {
-        padding-top: 120px;
+        padding-top: 80px;
     }
 
     .form-layout {
         text-align: center;
         max-width: 40%;
         margin: 0 auto;
-        padding-top: 120px;
+        padding-top: 80px;
     }
 
     .footer-bottom {
