@@ -11,3 +11,5 @@ project naming between prototype and github repository important! - example /the
 modal use taken from Whiskey bootstrap project
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+Back to top button learned from W3Schools - https://www.w3schools.com/howto/howto_js_scroll_to_top.asp

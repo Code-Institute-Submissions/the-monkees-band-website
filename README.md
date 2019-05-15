@@ -23,4 +23,4 @@ The website is a three page design. A primary page for all content, and two "tha
 
 ## Deployment
 
-(https://deganoth.github.io/the-monkees-band-website/)
+https://deganoth.github.io/the-monkees-band-website/
