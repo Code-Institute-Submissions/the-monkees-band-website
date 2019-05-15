@@ -196,10 +196,6 @@ body {
     text-align: center;
 }
 
-
-
-
-
 /*----------------------------------------Header*/
 
 /*----------------------------------------Navbar*/
@@ -485,6 +481,10 @@ video {
 }
 
 @media(min-width: 1280px) {
+    #btn--home{
+        z-index: 0;
+    }
+
     .navbar-top {
         position: fixed;
     }
