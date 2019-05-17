@@ -139,16 +139,6 @@ body {
     text-decoration: none;
 }
 
-/*.btn--home {
-    background-color: #CF4917;
-    color: #fff;
-    display: block;
-    margin: 20px auto;
-    padding-top: 10px;
-    border-radius: 50px;
-    font-size: 20px;
-}*/
-
 #btn--home {
     display: none;
     position: fixed;
@@ -163,10 +153,13 @@ body {
     cursor: pointer;
     padding: 15px;
     border-radius: 15px;
+    -o-transition: ease-in-out, 0.15s;
+    -moz-transition: ease-in-out, 0.15s;
+    -webkit-transition: ease-in-out, 0.15s;
 }
 
 #btn--home:hover {
-    color: #000;
+    transform: scale(1.15, 1.15);
 }
 
 .btn--home a {
