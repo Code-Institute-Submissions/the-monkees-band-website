@@ -122,11 +122,11 @@ body {
 /*----------------------------------------Buttons*/
 
 .btn--jumbo {
-
     background-color: #5091ad;
     color: #fff;
     display: block;
     margin: 20px auto;
+    border: none;
     border-radius: 50px;
     font-size: 20px;
 }
@@ -136,7 +136,6 @@ body {
 }
 
 .btn--jumbo a:hover {
-    color: #000;
     text-decoration: none;
 }
 
@@ -175,7 +174,6 @@ body {
 }
 
 .btn--home a:hover {
-    color: #000;
     text-decoration: none;
 }
 
@@ -192,12 +190,12 @@ body {
     color: #000;
 }
 
-.btn--footer:hover {
-    color: #2C4063;
+.btn--footer span {
+    color: #000;
 }
 
+
 .btn--footer a:hover {
-    color: #2C4063;
     text-decoration: none;
 }
 
@@ -256,14 +254,24 @@ body {
 .navitem a span {
     display: block;
     width: 100%;
-
     font-weight: 700;
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
     color: #fff;
+    transition-duration: 0.15s;
+    -o-transition: ease-in-out, 0.15s;
+    -moz-transition: ease-in-out, 0.15s;
+    -webkit-transition: ease-in-out, 0.15s;
+    transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
 }
 
+.navitem a span:hover {
+    transform: scale(1.1, 1.1);
+}
 
 /*----------------------------------------Callout*/
 
@@ -403,13 +411,13 @@ video {
     color: #000;
     background: #fff;
     transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
 }
 
 .social-links li a i:hover {
-    background-color: #5091AD;
+    transform: scale(1.15, 1.15);
 }
 
 /*----------------------------------------Booking & Signup Pages*/
@@ -526,10 +534,10 @@ video {
         width: 70%;
     }
 
-    .content-bio-article{
+    .content-bio-article {
         padding-right: 45%;
     }
-    
+
     .top-section {
         padding-top: 80px;
     }
@@ -584,7 +592,7 @@ h4 {
     text-align: center;
     width: 100%;
     margin: 20px auto;
-   
+
 }
 
 .h4,
@@ -605,4 +613,17 @@ a:hover {
 
 .modal-content {
     border-radius: 50px;
+}
+
+.btn {
+    color: #fff;
+    transition: ease-in-out, 0.15s;
+    -o-transition: ease-in-out, 0.15s;
+    -moz-transition: ease-in-out, 0.15s;
+    -webkit-transition: ease-in-out, 0.15s;
+}
+
+.btn:hover {
+    color: #fff;
+    transform: scale(1.15, 1.15);
 }
